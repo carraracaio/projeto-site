@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8cbb1;
+  }
+  
+
+  .main-footer {
+    background: #fcfbfb;
+    color: rgb(129, 129, 129);
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
