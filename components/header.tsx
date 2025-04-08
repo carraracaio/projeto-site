@@ -2,7 +2,7 @@
 "use client";
 
 import Link from "next/link";
-import styles from "C:/Users/rubilax/Desktop/pj_site/styles/componentes/header.module.css";
+import styles from "@/styles/componentes/header.module.css";
 export default function Header() {
 
   return (

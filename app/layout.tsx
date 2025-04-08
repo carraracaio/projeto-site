@@ -2,8 +2,8 @@
 
 "use client";
 import { Header, Sidebar } from "../components";
-import styles from "C:/Users/rubilax/Desktop/pj_site/styles/componentes/layout.module.css"
-import "C:/Users/rubilax/Desktop/pj_site/styles/global.css"; 
+import styles from "@/styles/componentes/layout.module.css"
+import "@/styles/global.css"; 
 
 export default function RootLayout({ children }: { children: React.ReactNode }) 
 {

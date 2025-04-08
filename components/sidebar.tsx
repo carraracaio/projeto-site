@@ -1,7 +1,7 @@
 
 "use client";
 import React, { useState } from "react";
-import styles from "C:/Users/rubilax/Desktop/pj_site/styles/componentes/sidebar.module.css";
+import styles from "@/styles/componentes/sidebar.module.css";
 export default function Sidebar(){
 
   const [isOpen, setIsOpen] = useState(false);
