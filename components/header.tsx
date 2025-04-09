@@ -9,11 +9,17 @@ export default function Header() {
 
     <header className = {styles.header}>
 
+      <div className = {styles.headerBtn}>
       <Link href="/">Deja-Vú</Link>
+      </div>
 
+      <div className = {styles.headerBtn}>
       <Link href="/catalogo">Catálogo</Link>
+      </div>
 
+      <div className = {styles.headerBtn}>
       <Link href="/outros">Outros</Link>
+      </div>
 
     </header>
 
