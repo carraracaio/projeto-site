@@ -13,19 +13,39 @@
   .headerBtn
   {
     display: flex;
-    flex-direction: row;
-    position: relative;         
-    top: 15px;                 
-    left: 117px;                
-    height:35px;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
     width: 100px;
-    gap: 10px;
     background-color: #585858;
-    border: none;
-    text-align: center;
+    color: white; /* define cor do texto */
+    text-decoration: none; /* remove sublinhado */
     font-weight: bold;
-    cursor: pointer;
+    border-radius: 4px;
+    margin: 10px;
     transition: background-color 0.2s;
   }
   .headerBtn:hover 
   {background-color: #bbbaba;}
+
+
+
+  /*headerBtn
+  {
+    display: flex;
+    flex-direction: row;
+    position: relative;         
+    top: 5px;                 
+    left: 50px;                
+    height:35px;
+    width: 100px;
+    gap: 40px;
+    background-color: #585858;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    margin:10px ;
+    transition: background-color 0.2s; */

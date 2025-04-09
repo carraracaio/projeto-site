@@ -9,17 +9,13 @@ export default function Header() {
 
     <header className = {styles.header}>
 
-      <div className = {styles.headerBtn}>
-      <Link href="/">Deja-Vú</Link>
-      </div>
-
-      <div className = {styles.headerBtn}>
-      <Link href="/catalogo">Catálogo</Link>
-      </div>
-
-      <div className = {styles.headerBtn}>
-      <Link href="/outros">Outros</Link>
-      </div>
+      
+      <Link href="/" className = {styles.headerBtn}>Deja-Vú</Link>
+    
+      <Link href="/catalogo" className = {styles.headerBtn}>Catálogo</Link>
+    
+      <Link href="/outros" className = {styles.headerBtn}>Outros</Link>
+      
 
     </header>
 
