@@ -13,7 +13,7 @@ export default function RootLayout({ children }: { children: React.ReactNode })
         
        <Header />
 
-       <div className= {styles.layoutContainer}>
+       <div className = {styles.layoutContainer}>
 
        <div style={{ display: "flex" }}>  
 
