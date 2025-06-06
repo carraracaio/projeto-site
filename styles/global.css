@@ -1,18 +1,17 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f8cbb1;
+
+    background-color: #4b4a4a;
   }
   
 
-  .main-footer {
-    background: #fcfbfb;
-    color: rgb(129, 129, 129);
-    text-align: center;
-    padding: 10px;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-  }
-  
+.layoutContainer {
+  display: flex;
+  height: calc(100vh - 60px); 
+  margin-top: 60px; 
+}
+.mainContent {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+  background-color: #f9f9f9;
+}
