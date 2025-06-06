@@ -13,13 +13,13 @@ export default function RootLayout({ children }: { children: React.ReactNode })
         
        <Header />
 
-       <div className= {styles.container}>
+       <div className= {styles.layoutContainer}>
 
        <div style={{ display: "flex" }}>  
 
           <Sidebar />
 
-          <main className = {styles.maincontent}
+          <main className = {styles.mainContent}
           
           style={{ flex: 1, 
                    padding: "10px", 
