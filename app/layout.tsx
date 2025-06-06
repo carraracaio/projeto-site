@@ -18,7 +18,8 @@ export default function RootLayout({ children }: { children: React.ReactNode })
        <div style={{ display: "flex" }}>  
 
           <Sidebar />
-
+ 
+ 
           <main className = {styles.mainContent}
           
           style={{ flex: 1, 
