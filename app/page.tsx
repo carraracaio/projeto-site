@@ -5,7 +5,10 @@
 
 export default function Home() {
 
-    return <h1>Olá, esta é a pagina home</h1>
-
+    return (
+      <>
+    <h1>Olá, esta é a pagina home</h1>
+</>
+    );
   }
   
