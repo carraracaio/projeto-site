@@ -14,7 +14,7 @@ export default function Header() {
     
       <Link href="/catalogo" className = {styles.headerBtn}>Catálogo</Link>
     
-      <Link href="/outros" className = {styles.headerBtn}>Outros</Link>
+      <Link href="/sobre" className = {styles.headerBtn}>Sobre</Link>
       
 
     </header>
