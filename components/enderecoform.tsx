@@ -58,7 +58,7 @@ export default function EnderecoForm() {
       const distancia = calcularDistancia(lojaLat, lojaLon, lat, lon);
 
       // cálculo da tarifa
-      const tarifaCalculada = 5 + 2 * distancia;
+      const tarifaCalculada = 5 + 0.1 * distancia;
 
       setTarifa(tarifaCalculada);
     } catch (e) {
