@@ -7,9 +7,9 @@ export default function Home() {
 
     return (
       <>
-    <h1>Olá, esta é a pagina home</h1>
+    <h1 style={{ textAlign: "center" }}>Olá, esta é a pagina home</h1>
 
-    <p>se quiser ter uma idéia de quanto custará o frete<br/>
+    <p style={{ textAlign: "center" }}>se quiser ter uma idéia de quanto custará o frete<br/>
         use esta calculadora</p>
 
      <EnderecoForm/>
