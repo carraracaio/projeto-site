@@ -1,26 +1,9 @@
 body {
+  padding-left:5px;
+  padding-right:5px;
   margin: 0;
   padding-top: 60px; /* espaço para o Header */
   font-family: sans-serif;
   background-color: #f0f0f0;
   }
 
-.layoutContainer {
-  display: flex;
-  height: 100vh; /* ocupa a tela inteira */
-  overflow: hidden;
-  position: fixed;
-  top: 60px; /* altura do header fixo */
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
-
-.mainContent {
-  flex: 1;
-  max-width: 900px; /* define a largura máxima */
-  margin: 20px auto; /* centraliza */
-  padding-left: 200px;
-  background-color: #f9f9f9;
-  border-radius: 8px;
-}
